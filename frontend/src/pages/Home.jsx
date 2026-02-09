@@ -19,8 +19,7 @@ import ngoImage from '../assets/ngo.jpeg'
 import certificateImg from '../assets/certificate.jpeg'
 
 function Home() {
-  const partners = ['ART Academy', 'WORLD Blood Donor', 'GreenCore', 'Findr']
-  
+
   const solutions = [
     { 
       icon: '🛡️', 
@@ -171,18 +170,6 @@ function Home() {
                 alt="Happy children" 
               />
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Partners Section */}
-      <section className="partners-section">
-        <div className="container">
-          <p className="partners-label">Non-Profit Charity</p>
-          <div className="partners-logos">
-            {partners.map((partner, index) => (
-              <span key={index} className="partner-logo">{partner}</span>
-            ))}
           </div>
         </div>
       </section>

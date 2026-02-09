@@ -103,6 +103,31 @@ function About() {
         </div>
       </section>
 
+      {/* Founder Section */}
+      <section className="section section-alt">
+        <div className="container">
+          <div className="about-grid" style={{ direction: 'rtl' }}>
+            <div className="about-image" style={{ direction: 'ltr' }}>
+              <img src={ownerPhoto} alt="Founder" style={{ objectFit: 'cover' }} />
+            </div>
+            <div className="about-content" style={{ direction: 'ltr' }}>
+              <span className="section-label">Our Founder</span>
+              <h2>Shri Ramesh Balhara</h2>
+              <p>
+                With a deep commitment to social welfare and community development, 
+                Shri Ramesh Balhara established this trust to create meaningful change 
+                in the lives of underprivileged communities.
+              </p>
+              <p>
+                His vision of empowering through education and healthcare continues 
+                to guide our work, inspiring volunteers and team members to make 
+                a lasting difference every day.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Our Story */}
       <section className="section">
         <div className="container">
@@ -147,31 +172,6 @@ function About() {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Founder Section */}
-      <section className="section section-alt">
-        <div className="container">
-          <div className="about-grid" style={{ direction: 'rtl' }}>
-            <div className="about-image" style={{ direction: 'ltr' }}>
-              <img src={ownerPhoto} alt="Founder" style={{ objectFit: 'cover' }} />
-            </div>
-            <div className="about-content" style={{ direction: 'ltr' }}>
-              <span className="section-label">Our Founder</span>
-              <h2>Shri Ramesh Balhara</h2>
-              <p>
-                With a deep commitment to social welfare and community development, 
-                Shri Ramesh Balhara established this trust to create meaningful change 
-                in the lives of underprivileged communities.
-              </p>
-              <p>
-                His vision of empowering through education and healthcare continues 
-                to guide our work, inspiring volunteers and team members to make 
-                a lasting difference every day.
-              </p>
             </div>
           </div>
         </div>

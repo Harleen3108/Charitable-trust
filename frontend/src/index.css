@@ -1857,7 +1857,9 @@ textarea.form-control {
     }
     
     .hero-features {
+        display: flex;
         flex-direction: row;
+        flex-wrap: nowrap;
         gap: 0.75rem;
         overflow-x: auto;
         padding: 0.5rem 0.25rem;
@@ -1871,8 +1873,8 @@ textarea.form-control {
     }
     
     .hero-feature-card {
-        flex: 0 0 100px;
-        height: 100px;
+        flex: 0 0 90px;
+        height: 90px;
         box-shadow: -4px 4px 12px rgba(26, 77, 46, 0.3);
     }
 
