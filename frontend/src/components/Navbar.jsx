@@ -36,7 +36,7 @@ function Navbar() {
           <Link to="/gallery" className={`nav-link ${isActive('/gallery') ? 'active' : ''}`}>Gallery</Link>
           <Link to="/contact" className={`nav-link ${isActive('/contact') ? 'active' : ''}`}>Contacts</Link>
           <div className="nav-cta">
-            <Link to="/join" className="btn btn-primary">Donate Now</Link>
+            <Link to="/contact" className="btn btn-primary">Join Us</Link>
           </div>
         </nav>
 

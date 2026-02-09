@@ -144,7 +144,7 @@ function Home() {
               </h1>
               
               <div className="hero-buttons">
-                <Link to="/join" className="btn btn-primary btn-lg">Donate Now</Link>
+                <Link to="/contact" className="btn btn-primary btn-lg">Join Us</Link>
               </div>
               
               {/* Feature Cards */}

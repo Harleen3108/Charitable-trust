@@ -146,7 +146,7 @@ function Services() {
               Join us in making a difference today.
             </p>
             <div className="cta-buttons">
-              <Link to="/join" className="btn btn-primary btn-lg">Volunteer With Us</Link>
+              <Link to="/contact" className="btn btn-primary btn-lg">Join Us</Link>
               <Link to="/contact" className="btn btn-outline-white btn-lg">Contact Us</Link>
             </div>
           </div>

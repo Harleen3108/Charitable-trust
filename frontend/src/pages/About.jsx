@@ -288,7 +288,7 @@ function About() {
               build a better future for those who need it most.
             </p>
             <div className="cta-buttons">
-              <Link to="/join" className="btn btn-primary btn-lg">Join as Volunteer</Link>
+              <Link to="/contact" className="btn btn-primary btn-lg">Join Us</Link>
               <Link to="/contact" className="btn btn-outline-white btn-lg">Contact Us</Link>
             </div>
           </div>
