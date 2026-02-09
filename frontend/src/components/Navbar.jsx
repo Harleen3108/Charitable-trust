@@ -25,13 +25,13 @@ function Navbar() {
     <header className={`header ${isScrolled || location.pathname !== '/' ? 'scrolled' : 'scrolled'}`}>
       <div className="container">
         <Link to="/" className="logo">
-          <img src="/assests/logo.png" alt="Ramesh Balhara Charitable Trust Logo" className="logo-icon" style={{ height: '40px', width: 'auto' }} />
-          <span>Ramesh Balhara Charitable Trust</span>
+          <img src="/assests/logo.png" alt="Ramesh Balhara Cheritable Trust Logo" className="logo-icon" />
+          <span>Ramesh Balhara Cheritable Trust</span>
         </Link>
 
         <nav className={`nav ${isMenuOpen ? 'active' : ''}`}>
           <Link to="/" className={`nav-link ${isActive('/') ? 'active' : ''}`}>Home</Link>
-          <Link to="/services" className={`nav-link ${isActive('/services') ? 'active' : ''}`}>Campaigns</Link>
+          <Link to="/services" className={`nav-link ${isActive('/services') ? 'active' : ''}`}>Services</Link>
           <Link to="/about" className={`nav-link ${isActive('/about') ? 'active' : ''}`}>About Us</Link>
           <Link to="/gallery" className={`nav-link ${isActive('/gallery') ? 'active' : ''}`}>Gallery</Link>
           <Link to="/contact" className={`nav-link ${isActive('/contact') ? 'active' : ''}`}>Contacts</Link>

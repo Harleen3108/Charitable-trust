@@ -1,7 +1,7 @@
 {
-  "name": "rames-charitable-trust-backend",
+  "name": "rames-cheritable-trust-backend",
   "version": "1.0.0",
-  "description": "Backend API for Rames Charitable Trust NGO website",
+  "description": "Backend API for Rames Cheritable Trust NGO website",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

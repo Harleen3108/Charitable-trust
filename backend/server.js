@@ -18,6 +18,9 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
+app.get('/', (req, res) => {
+    res.send('Ramesh Balhara Charitable Trust Backend API is running...');
+});
 app.use('/api/contact', contactRoutes);
 app.use('/api/members', memberRoutes);
 

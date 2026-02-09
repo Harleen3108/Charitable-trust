@@ -1,48 +1,62 @@
 import { Link } from 'react-router-dom'
+import img1 from '../assets/1.jpeg'
+import img2 from '../assets/2.jpeg'
+import img3 from '../assets/3.jpeg'
+import img4 from '../assets/4.jpeg'
+import img5 from '../assets/5.jpeg'
+import img6 from '../assets/6.jpeg'
+import img7 from '../assets/7.jpeg'
+import img8 from '../assets/8.jpeg'
+import img9 from '../assets/9.jpeg'
+import img10 from '../assets/10.jpeg'
+import img11 from '../assets/11.jpeg'
+import img12 from '../assets/12.jpeg'
+import img13 from '../assets/13.jpeg'
+import img15 from '../assets/15.jpeg'
 
 function Services() {
   const services = [
     {
-      icon: '📚',
+      // icon: '📚',
       title: 'Education Programs',
       description: 'Education is the foundation of lasting change. Our education programs provide quality learning opportunities to children and youth from underprivileged backgrounds.',
       features: ['Scholarship Programs', 'After-School Tutoring', 'Digital Literacy', 'School Supplies Distribution'],
-      image: 'https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=800&q=80'
+      image: img12
     },
     {
-      icon: '🏥',
+      // icon: '🏥',
       title: 'Healthcare Initiatives',
       description: 'Access to healthcare is a fundamental right. We organize medical camps, provide health education, and facilitate access to essential medical services.',
       features: ['Free Medical Camps', 'Health Awareness Programs', 'Maternal & Child Health', 'Medicine Distribution'],
-      image: 'https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=800&q=80'
+      image: img8
     },
     {
-      icon: '👩‍👧',
+      // icon: '👩‍👧',
       title: 'Women Empowerment',
       description: 'Empowering women means empowering entire communities. Our programs focus on skill development, financial literacy, and creating opportunities for economic independence.',
       features: ['Skill Development', 'Self-Help Groups', 'Micro-Enterprise Support', 'Financial Literacy'],
-      image: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=800&q=80'
+      image: img15
     },
     {
-      icon: '🌳',
+      // icon: '🌳',
       title: 'Environmental Conservation',
       description: 'Protecting our environment is protecting our future. We engage communities in tree plantation drives, waste management, and sustainable farming practices.',
       features: ['Tree Plantation Drives', 'Waste Management', 'Clean Water Initiatives', 'Sustainable Agriculture'],
-      image: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=800&q=80'
+      image: img6
     },
     {
-      icon: '🏘️',
+      // icon: '🏘️',
       title: 'Community Development',
       description: 'Holistic community development addresses multiple aspects of wellbeing. We work with communities to improve infrastructure, livelihoods, and quality of life.',
       features: ['Infrastructure Development', 'Livelihood Programs', 'Youth Skill Training', 'Rural Development'],
-      image: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&q=80'
+      image: img10
     },
     {
-      icon: '🆘',
+      // icon: '🆘',
       title: 'Emergency Relief',
       description: 'When disaster strikes, we respond swiftly to provide essential relief to affected communities, including food, shelter, medical aid, and rehabilitation support.',
       features: ['Disaster Response', 'Food & Shelter', 'Medical Aid', 'Rehabilitation Support'],
-      image: 'https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=800&q=80'
+      image: img11
     }
   ]
 
@@ -53,7 +67,7 @@ function Services() {
         <div className="container">
           <div className="page-header-content">
             <span className="section-label">What We Do</span>
-            <h1 className="page-header-title">Our Campaigns</h1>
+            <h1 className="page-header-title">Our Services</h1>
             <p className="page-header-subtitle">
               Comprehensive programs designed to create lasting impact in education, 
               healthcare, and community development.
@@ -61,7 +75,7 @@ function Services() {
             <div className="breadcrumb">
               <Link to="/">Home</Link>
               <span>›</span>
-              <span>Campaigns</span>
+              <span>Services</span>
             </div>
           </div>
         </div>

@@ -1,5 +1,19 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import img1 from '../assets/1.jpeg'
+import img2 from '../assets/2.jpeg'
+import img3 from '../assets/3.jpeg'
+import img4 from '../assets/4.jpeg'
+import img5 from '../assets/5.jpeg'
+import img6 from '../assets/6.jpeg'
+import img7 from '../assets/7.jpeg'
+import img8 from '../assets/8.jpeg'
+import img9 from '../assets/9.jpeg'
+import img10 from '../assets/10.jpeg'
+import img11 from '../assets/11.jpeg'
+import img12 from '../assets/12.jpeg'
+import img13 from '../assets/13.jpeg'
+import img15 from '../assets/15.jpeg'
 
 function Gallery() {
   const [selectedImage, setSelectedImage] = useState(null)
@@ -15,18 +29,20 @@ function Gallery() {
   ]
 
   const images = [
-    { src: 'https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=800&q=80', caption: 'Education Workshop', category: 'education' },
-    { src: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&q=80', caption: 'Classroom Session', category: 'education' },
-    { src: 'https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=800&q=80', caption: 'Health Checkup', category: 'healthcare' },
-    { src: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80', caption: 'Medical Camp', category: 'healthcare' },
-    { src: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&q=80', caption: 'Community Event', category: 'community' },
-    { src: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&q=80', caption: 'Children Program', category: 'community' },
-    { src: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=800&q=80', caption: 'Women Workshop', category: 'women' },
-    { src: 'https://images.unsplash.com/photo-1594708767771-a5a8d8c5bdfc?w=800&q=80', caption: 'Skill Training', category: 'women' },
-    { src: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=800&q=80', caption: 'Tree Plantation', category: 'environment' },
-    { src: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80', caption: 'Nature Conservation', category: 'environment' },
-    { src: 'https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=800&q=80', caption: 'Relief Distribution', category: 'community' },
-    { src: 'https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=800&q=80', caption: 'Team Activity', category: 'community' }
+    { src: img12, caption: 'Education Workshop', category: 'education' },
+    { src: img7, caption: 'Classroom Session', category: 'education' },
+    { src: img8, caption: 'Health Checkup', category: 'healthcare' },
+    { src: img3, caption: 'Medical Camp', category: 'healthcare' },
+    { src: img1, caption: 'Community Event', category: 'community' },
+    { src: img2, caption: 'Children Program', category: 'community' },
+    { src: img15, caption: 'Women Workshop', category: 'women' },
+    { src: img9, caption: 'Skill Training', category: 'women' },
+    { src: img6, caption: 'Tree Plantation', category: 'environment' },
+    { src: img5, caption: 'Nature Conservation', category: 'environment' },
+    { src: img11, caption: 'Relief Distribution', category: 'community' },
+    { src: img10, caption: 'Team Activity', category: 'community' },
+    { src: img4, caption: 'Awareness Program', category: 'education' },
+    { src: img13, caption: 'Community Service', category: 'community' }
   ]
 
   const filteredImages = activeCategory === 'all' 
