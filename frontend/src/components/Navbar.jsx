@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import logo from '../assets/logo.png'
 
 function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -25,7 +26,7 @@ function Navbar() {
     <header className={`header ${isScrolled || location.pathname !== '/' ? 'scrolled' : 'scrolled'}`}>
       <div className="container">
         <Link to="/" className="logo">
-          <img src="/assests/logo.png" alt="Ramesh Balhara Cheritable Trust Logo" className="logo-icon" />
+          <img src={logo} alt="Ramesh Balhara Cheritable Trust Logo" className="logo-icon" />
           <span>Ramesh Balhara Cheritable Trust</span>
         </Link>
 

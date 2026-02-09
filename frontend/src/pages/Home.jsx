@@ -196,7 +196,7 @@ function Home() {
             </div>
             
             <div className="about-content">
-              <span className="section-label">Gift of $28</span>
+              {/* <span className="section-label">Gift of $28</span> */}
               <h2>Helping Others<br/>Improves World</h2>
               <p>
                 Ensures that kids living in poverty have access to life-changing benefits 
