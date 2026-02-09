@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import logo from '../assets/logo.png'
 
 function Footer() {
   return (
@@ -7,7 +8,7 @@ function Footer() {
         <div className="footer-grid">
           <div className="footer-brand">
             <div className="footer-logo">
-              <img src="/assests/logo.png" alt="Ramesh Balhara Cheritable Trust Logo" className="footer-logo-icon" style={{ height: '50px', width: 'auto' }} />
+              <img src={logo} alt="Ramesh Balhara Cheritable Trust Logo" className="footer-logo-icon" style={{ height: '50px', width: 'auto' }} />
               <span>Ramesh Balhara Cheritable Trust</span>
             </div>
             <p>
@@ -71,7 +72,7 @@ function Footer() {
         </div>
 
         <div className="footer-bottom">
-          <p>© 2024 Ramesh Balhara Cheritable Trust. All rights reserved.</p>
+          <p>© 2026 Ramesh Balhara Cheritable Trust. All rights reserved.</p>
           <div className="footer-bottom-links">
             <Link to="/privacy-policy">Privacy Policy</Link>
             <Link to="/terms-of-service">Terms of Service</Link>

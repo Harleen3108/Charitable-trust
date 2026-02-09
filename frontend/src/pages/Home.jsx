@@ -185,12 +185,12 @@ function Home() {
               />
               <div className="about-quote">
                 <p>
-                  "This place is awesome and huge! Michael was super cool and very 
-                  pleasant. If you want someone to deliver the goods on your project."
+                  "The dedication of this trust towards child welfare and community service 
+                  is truly heart touching. It is a blessing to be part of such noble work."
                 </p>
                 <div className="about-quote-author">
-                  Hayes Merry
-                  <span>Designer</span>
+                  Rajesh Sharma
+                  <span>Social Worker</span>
                 </div>
               </div>
             </div>
