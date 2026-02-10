@@ -8,6 +8,7 @@ import img4 from '../assets/4.jpeg'
 import img5 from '../assets/5.jpeg'
 import img6 from '../assets/6.jpeg'
 import gpt2 from '../assets/gpt2.png'
+import gpt1 from '../assets/gpt1.avif'
 import img7 from '../assets/7.jpeg'
 import img8 from '../assets/8.jpeg'
 import img9 from '../assets/9.jpeg'
@@ -21,23 +22,7 @@ import ngoImage from '../assets/ngo.jpeg'
 import certificateImg from '../assets/certificate.jpeg'
 
 function Home() {
-  const [heroImageIndex, setHeroImageIndex] = useState(0)
-  const heroImages = [gpt2, img1, img2, img3]
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setHeroImageIndex((prevIndex) => (prevIndex + 1) % heroImages.length)
-    }, 3000)
-    return () => clearInterval(timer)
-  }, [])
-
-  const nextSlide = () => {
-    setHeroImageIndex((prevIndex) => (prevIndex + 1) % heroImages.length)
-  }
-
-  const prevSlide = () => {
-    setHeroImageIndex((prevIndex) => (prevIndex - 1 + heroImages.length) % heroImages.length)
-  }
+  const heroImage = gpt2
 
 
   const solutions = [
@@ -45,7 +30,7 @@ function Home() {
       icon: '🛡️',
       title: 'Fight Poverty Programs & Service Children',
       text: 'Provides nutritious food, healthcare and vocational training',
-      image: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=400&q=80'
+      image: gpt1
     },
     {
       icon: '📚',
@@ -191,12 +176,9 @@ function Home() {
 
             <div className="hero-image">
               <img
-                src={heroImages[heroImageIndex]}
+                src={heroImage}
                 alt="Happy children"
-                className="fade-transition"
               />
-              <button className="carousel-arrow left" onClick={prevSlide}>&#10094;</button>
-              <button className="carousel-arrow right" onClick={nextSlide}>&#10095;</button>
             </div>
           </div>
         </div>
