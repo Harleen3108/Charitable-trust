@@ -13,6 +13,7 @@ import img11 from '../assets/11.jpeg'
 import img12 from '../assets/12.jpeg'
 import img13 from '../assets/13.jpeg'
 import img15 from '../assets/15.jpeg'
+import image3 from '../assets/image3.png'
 
 function Services() {
   const services = [
@@ -57,6 +58,13 @@ function Services() {
       description: 'When disaster strikes, we respond swiftly to provide essential relief to affected communities, including food, shelter, medical aid, and rehabilitation support.',
       features: ['Disaster Response', 'Food & Shelter', 'Medical Aid', 'Rehabilitation Support'],
       image: img11
+    },
+    {
+      // icon: '🐾',
+      title: 'Animal Welfare',
+      description: 'Protecting and caring for animals in need. We provide shelter, medical treatment, and rehabilitation for stray and injured animals.',
+      features: ['Stray Animal Rescue', 'Veterinary Care', 'Feeding Programs', 'Adoption Support'],
+      image: image3
     }
   ]
 
@@ -69,7 +77,7 @@ function Services() {
             <span className="section-label">What We Do</span>
             <h1 className="page-header-title">Our Services</h1>
             <p className="page-header-subtitle">
-              Comprehensive programs designed to create lasting impact in education, 
+              Comprehensive programs designed to create lasting impact in education,
               healthcare, and community development.
             </p>
             <div className="breadcrumb">
@@ -88,7 +96,7 @@ function Services() {
             <span className="section-label">Our Impact</span>
             <h2 className="section-title">Programs That Transform Lives</h2>
             <p className="section-subtitle">
-              We offer a range of integrated programs that address the core needs of 
+              We offer a range of integrated programs that address the core needs of
               underprivileged communities, creating sustainable pathways to progress.
             </p>
           </div>
@@ -104,9 +112,9 @@ function Services() {
                 <img src={service.image} alt={service.title} style={{ borderRadius: 'var(--radius-xl)' }} />
               </div>
               <div className="about-content" style={{ direction: 'ltr' }}>
-                <div style={{ 
-                  width: '60px', 
-                  height: '60px', 
+                <div style={{
+                  width: '60px',
+                  height: '60px',
                   background: 'var(--cream)',
                   borderRadius: 'var(--radius-md)',
                   display: 'flex',
@@ -120,7 +128,7 @@ function Services() {
                 <span className="section-label">{service.title.split(' ')[0]}</span>
                 <h2>{service.title}</h2>
                 <p>{service.description}</p>
-                
+
                 <div className="about-features" style={{ marginTop: '1.5rem' }}>
                   {service.features.map((feature, i) => (
                     <div className="about-feature" key={i}>
@@ -142,7 +150,7 @@ function Services() {
             <span className="section-label" style={{ color: 'var(--gold)' }}>Get Involved</span>
             <h2 className="cta-title">Support Our Programs</h2>
             <p className="cta-text">
-              Every contribution helps us extend our reach and deepen our impact. 
+              Every contribution helps us extend our reach and deepen our impact.
               Join us in making a difference today.
             </p>
             <div className="cta-buttons">
