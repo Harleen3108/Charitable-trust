@@ -11,8 +11,8 @@ function PrivacyPolicy() {
           <section className="legal-section">
             <h2>1. Introduction</h2>
             <p>
-              Ramesh Balhara Charitable Trust ("we," "our," or "us") is committed to protecting 
-              your privacy. This Privacy Policy explains how we collect, use, disclose, and 
+              Ramesh Balhara Charitable Trust ("we," "our," or "us") is committed to protecting
+              your privacy. This Privacy Policy explains how we collect, use, disclose, and
               safeguard your information when you visit our website or interact with our services.
             </p>
           </section>
@@ -52,9 +52,9 @@ function PrivacyPolicy() {
           <section className="legal-section">
             <h2>4. Information Sharing</h2>
             <p>
-              We do not sell, trade, or rent your personal information to third parties. 
-              We may share information with trusted service providers who assist us in 
-              operating our website and conducting our charitable activities, subject to 
+              We do not sell, trade, or rent your personal information to third parties.
+              We may share information with trusted service providers who assist us in
+              operating our website and conducting our charitable activities, subject to
               confidentiality agreements.
             </p>
           </section>
@@ -62,8 +62,8 @@ function PrivacyPolicy() {
           <section className="legal-section">
             <h2>5. Data Security</h2>
             <p>
-              We implement appropriate security measures to protect your personal information. 
-              However, no method of transmission over the internet is 100% secure, and we 
+              We implement appropriate security measures to protect your personal information.
+              However, no method of transmission over the internet is 100% secure, and we
               cannot guarantee absolute security.
             </p>
           </section>
@@ -82,12 +82,12 @@ function PrivacyPolicy() {
           <section className="legal-section">
             <h2>7. Contact Us</h2>
             <p>
-              If you have questions about this Privacy Policy or our data practices, 
+              If you have questions about this Privacy Policy or our data practices,
               please contact us at:
             </p>
             <p>
               <strong>Ramesh Balhara Charitable Trust</strong><br />
-              Email: hara@gmail.com<br />
+              Email: Rameshbalharatrust@gmail.com<br />
               Address: Bahu Jamalpur Bus Stand, Gaddi Kheri Mor, Hisar Road, Rohtak, Haryana - 124001
             </p>
           </section>

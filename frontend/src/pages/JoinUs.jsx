@@ -56,9 +56,9 @@ function JoinUs() {
         interests: [], availability: '', message: ''
       })
     } catch (error) {
-      setStatus({ 
-        type: 'error', 
-        message: error.response?.data?.message || 'Something went wrong. Please try again.' 
+      setStatus({
+        type: 'error',
+        message: error.response?.data?.message || 'Something went wrong. Please try again.'
       })
     } finally {
       setIsSubmitting(false)
@@ -294,7 +294,7 @@ function JoinUs() {
             <span className="section-label" style={{ color: 'var(--gold)' }}>Other Ways</span>
             <h2 className="cta-title">Other Ways to Help</h2>
             <p className="cta-text">
-              Can't volunteer? You can still support through donations, 
+              Can't volunteer? You can still support through donations,
               partnerships, or spreading the word about our work.
             </p>
             <div className="cta-buttons">
